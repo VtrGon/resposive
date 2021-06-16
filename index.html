@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portal de Filmes</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="container header">
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-1">
+                        <img src="./images/logo.png" class="logo">
+                    </div>
+                    <div class="col-8">
+                        <nav class="nav nav-pills flex-column flex-sm-row">
+                            <a class="flex-sm-fill text-sm-center nav-link" href="#">Lancamentos</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="#">Em Destaque</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="#">Avaliacoes</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="#">Entrevista e Marketing</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="#">Novidades</a>
+                        </nav>
+                    </div>
+                    <div class="input-group mb-3 col-3 barra-pesquisa">
+                        <input type="text" class="form-control" placeholder="Pesquisa" aria-label="Recipient's username"
+                            aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Ok</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main">
+        <section class="row lancamentos">
+            <div class="col 12">
+                <h1>Lancamentos</h1>
+                <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-interval="167000">
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item"
+                                            src="https://www.youtube.com/embed/tWZ-IK8lL0E" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="lan col-6">
+                                    <div class="info_lancamento">
+                                        <h1>Os Caras de Pau em O Misterioso Roubo do Anel</h1>
+                                        <p><strong>Sinopse: </strong>Os seguranças mais atrapalhados da TV, Pedrão e
+                                            Jorginho agora para executar uma supermissão: eles terão de cuidar de um
+                                            valioso anel, que ultrapassou várias gerações. Mas no meio da
+                                            noite, eles são surpreendidos por um ninja que queria roubar o anel do museu
+                                            e acabam sendo suspeitos, pois o ninja tinha fugido. O problema é que o
+                                            ninja não estava com o anel e sim, no estômago de Jorginho.</p>
+                                        <p><strong>Diretor: </strong>Felipe Joffily</p>
+                                        <p><strong>Roteiristas: </strong>Mauro Wilson, Marcius Melhem, Celso Taddei,
+                                            Chico Soares</p>
+                                        <p><strong>Estreia: </strong>25 de Dezembro de 2014</p>
+                                        <p><strong>Elenco: </strong>Leandro Hassum, Marcius Melhem, Christine Fernandes,
+                                            Márcio Vito, Adriano Garib, André Mattos</p>
+                                        <progress value="70" max="100">Avaliacao</progress>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-interval="150000">
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item"
+                                            src="https://www.youtube.com/embed/5gN2uH3EJFU" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="lan col-6">
+                                    <div class="info_lancamento">
+                                        <h1>Invocacao do mal 2</h1>
+                                        <p><strong>Sinopse: </strong>Os famosos demonologistas Lorraine e Ed Warren
+                                            viajam ao norte de Londres. Lá eles ajudam uma mãe solteira que cria quatro
+                                            filhos sozinha em uma casa atormentada por espíritos malignos.</p>
+                                        <p><strong>Diretor: </strong>Felipe Joffily</p>
+                                        <p><strong>Roteiristas: </strong>Mauro Wilson, Marcius Melhem, Celso Taddei,
+                                            Chico Soares</p>
+                                        <p><strong>Estreia: </strong>9 de junho de 2016</p>
+                                        <p><strong>Elenco: </strong>Leandro Hassum, Marcius Melhem, Christine Fernandes,
+                                            Márcio Vito, Adriano Garib, André Mattos</p>
+                                        <progress value="70" max="100">Avaliacao</progress>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-interval="5000">
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item"
+                                            src="https://www.youtube.com/embed/bk4E0Rl2cns" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="lan col-6">
+                                    <div class="info_lancamento">
+                                        <h1>Rambo - Ate o Fim</h1>
+                                        <p><strong>Sinopse: </strong>O tempo passou para Rambo, que agora vive recluso
+                                            em um rancho na fronteira entre os Estados Unidos e o México. Sua vida
+                                            marcada por lutas violentas ficou para trás, mas deixou marcas irreparáveis.
+                                            No entanto, quando uma jovem amiga da família é sequestrada, Rambo precisará
+                                            enfrentar um dos mais perigosos cartéis mexicanos.</p>
+                                        <p><strong>Diretor: </strong>Adrian Grunberg</p>
+                                        <p><strong>Roteiristas: </strong>Matt Cirulnick, Sylvester Stallone</p>
+                                        <p><strong>Estreia: </strong>19 de setembro de 2019</p>
+                                        <p><strong>Elenco: </strong>Sylvester Stallone, Yvette Monreal, Adriana Barraza,
+                                            Paz Vega, Sergio Peris-Mencheta, Óscar Jaenada, Rick Zingale</p>
+                                        <progress value="70" max="100">Avaliacao</progress>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-interval="5000">
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item"
+                                            src="https://www.youtube.com/embed/_-MrX9qvU1I" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="lan col-6">
+                                    <div class="info_lancamento">
+                                        <h1>Titanic</h1>
+                                        <p><strong>Sinopse: </strong>Um artista pobre e uma jovem rica se conhecem e se
+                                            apaixonam na fatídica jornada do Titanic, em 1912. Embora esteja noiva do
+                                            arrogante herdeiro de uma siderúrgica, a jovem desafia sua família e amigos
+                                            em busca do verdadeiro amor.</p>
+                                        <p><strong>Diretor: </strong>James Cameron</p>
+                                        <p><strong>Roteirista: </strong>James Cameron</p>
+                                        <p><strong>Estreia: </strong>16 de janeiro de 1998</p>
+                                        <p><strong>Elenco: </strong>Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy
+                                            Bates, Bill Paxton, Gloria Stuart, Frances Fisher, Bernard Hill</p>
+                                        <progress value="70" max="100">Avaliacao</progress>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="row destaques">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-6">
+                        <h1>Destaques</h1>
+                    </div>
+                    <div class="col-6">
+                        <div class="categoria">
+                            <label for="categoria">Categoria: </label>
+                            <input list="genero" name="categoria">
+                            <datalist id="genero">
+                                <option value="terror">
+                                <option value="acao">
+                                <option value="comedia">
+                                <option value="drama">
+                                <option value="romance">
+                            </datalist>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                <img src="./images/terror2.jpeg">
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                <img src="./images/terror6.jpeg">
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                <img src="./images/terror3.jpg">
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                <img src="./images/terror5.jpeg">
+            </div>
+            <div class="col-12">
+                <button type="button" class="button btn btn-sm btn-outline-dark">Carregar mais filmes</button>
+            </div>
+        </section>
+
+        <section class="row avaliacoes">
+            <div class="col-12">
+                <h1> Ultimas Avaliacoes</h1>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="info_avaliador">
+                    <h3>Ruan Pablo</h3>
+                    <p>Fico imaginando que os americanos não se importam nenhum pouco com a atual situação do nosso
+                        planeta, é Inacreditável o número de vezes que eles jogam LIXO no Chão, LIXO na Floresta e em
+                        qualquer lugar que estejam. Eles tem que repensar os seriados, pois as pessoas imitam este
+                        comportamento e ele é Inaceitável com tudo que sabemos hoje sobre as consequências da poluição.
+                    </p>
+                    <progress value="70" max="100">Avaliacao</progress>
+                    <time datetime="2020-10-04">04/10/2020</time>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="info_avaliador">
+                    <h3>Vitor Goncalves</h3>
+                    <p>O fato deles ficarem em muito conteúdo alternativo como LGBT, filmes asiáticos, séries e mini
+                        séries, deixa muito pouco espaço para filmes realmente bons, especialmente filmes que interessem
+                        no geral, ou seja, o conteúdo está cada vez pior e mais fechado em um nicho.</p>
+                    <progress value="70" max="100">Avaliacao</progress>
+                    <time datetime="2020-10-04">04/10/2020</time>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="info_avaliador">
+                    <h3>Luan Carlos</h3>
+                    <p>As opções de filmes, séries e essas coisas parecem estar "sumindo", eu fui procurar sing quem
+                        canta seus males espanta(eu já assisti ele uma vez na netflix) e ele foi removido, eu queria que
+                        tivessem mais filmes e séries e que todas as temporadas de MLP fossem adicionadas ao catálogo (é
+                        meio injusto não lançar todas as temporadas).</p>
+                    <progress value="70" max="100">Avaliacao</progress>
+                    <time datetime="2020-10-04">04/10/2020</time>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="button" class="button btn btn-sm btn-outline-dark">Carregar mais avaliacoes</button>
+            </div>
+        </section>
+
+        <section class="row entrevista">
+            <div class="col-12">
+                <h1>Entrevistas e Making of</h1>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XKpnHmqJ6Lg"
+                        allowfullscreen></iframe>
+                </div>
+                <h3>Coringa</h3>
+                <p><strong>Diretor: </strong>Todd Phillips</p>
+                <p><strong>Roteiro: </strong>Todd Phillips, Scott Silver</p>
+                <p><strong>Estreia: </strong>3 de outubro de 2019</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jS7BzOekbrY"
+                        allowfullscreen></iframe>
+                </div>
+                <h3>Divaldo: O Mensageiro da Paz</h3>
+                <p><strong>Diretor: </strong>Clovis Mello</p>
+                <p><strong>Roteiro: </strong>Clovis Mello</p>
+                <p><strong>Estreia: </strong>12 de setembro de 2019</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6qxQPdG4400"
+                        allowfullscreen></iframe>
+                </div>
+                <h3>Sonic - O Filme</h3>
+                <p><strong>Diretor: </strong>Jim Carrey</p>
+                <p><strong>Roteiro: </strong>Worm Miller, Oren Uziel, Patrick Casey</p>
+                <p><strong>Estreia: </strong>13 de fevereiro de 2020</p>
+            </div>
+        </section>
+
+        <section class="row novidades">
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                <div class="novidades1">
+                    <h1>Novidades</h1>
+                    <div class="materia">
+                        <img src="./images/Odisseia.jpg">
+                        <div class="info_novidade pri">
+                            <h3>2001 Uma Odissea no Espaço</h3>
+                            <p>Trabalhar com o diretor Stanley Kubrick nunca foi fácil. Um maníaco de detalhes e
+                                perfeccionista no set, ele foi capaz de filmar a mesma cena muitas vezes até esgotar os
+                                atores. Em relação a uma de suas maiores obras-primas, 2001 Uma Odisséia no Espaço, o
+                                diretor decidiu destruir todos os materiais de cena!</p>s
+                        </div>
+                    </div>
+                    <div class="materia">
+                        <img src="./images/Rocky.jpg">
+                        <div class="info_novidade seg">
+                            <h3>Rocky IV</h3>
+                            <p>Silvester Stallone criou o personagem de Rocky e além disso, o interpretou tão bem que
+                                deu vida à uma das mais duradouras sagas da história do cinema. E pensar que, no começo,
+                                não queriam dar o papel à ele.</p>
+                            <b>Hollywood</b>
+                            <b>Oscar</b>
+                            <b>Melhor filme</b>
+                        </div>
+                    </div>
+                    <div class="materia">
+                        <img src="./images/Titanic.jpg">
+                        <div class="info_novidade ter">
+                            <h3>Titanic</h3>
+                            <p>Há certamente mais de uma razão pela qual o Titanic ganhou 11 Oscars dentre as 14
+                                indicações e muitos espectadores apaixonados no ano de seu lançamento nos cinemas. A
+                                história de amor no set criou um excelente relacionamento, que ainda perdura hoje, entre
+                                Leonardo Di Caprio e Kate Winslet.</p>
+                            <b>Oscar</b>
+                            <b>Melhor filme</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="sobre">
+                    <h1>Sobre</h1>
+                    <p>Somos uma provedora global de filmes e séries de televisão via streaming sediada em Contagem, MG,
+                        e que atualmente possui milhões de assinantes. Fundada em 2020 no Brasil, a empresa surgiu como
+                        um serviço de entrega de DVD pelo correio.</p>
+                </div>
+                <div class="editorial">
+                    <h1>Editorial</h1>
+                    <p><strong>Redacao: </strong>Vitor Goncalves</p>
+                    <p><strong>Pesquisa: </strong>Ruan Pablo</p>
+                    <p><strong>Gerente Geral: </strong>Rafael Vinicius</p>
+                </div>
+                <div class="redes">
+                    <h1>Redes Sociais</h1>
+                    <img class="redes" src="./images/f.png">
+                    <img class="redes" src="./images/t.png">
+                    <img class="redes" src="./images/i.png">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container footer">
+        <div class="row">
+            <div class="col-10">
+                <p>Copyright 2020 - Portal de Filmes</p>
+            </div>
+            <div class="col-2">
+                <img src="./images/logo.png" class="logo">
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

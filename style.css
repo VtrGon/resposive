@@ -1,0 +1,294 @@
+body {
+    background-color: #1b1b1b;
+}
+
+body p, h1, h3, b{
+    color: #ffffff;
+}
+
+body h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.header {
+    background: #474747c2;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.header a {
+    line-height: 0px;
+    font-size: 14px;
+}
+
+.nav {
+    position: absolute;
+    top:20px;
+    left:15%;
+    margin-left: -20px;
+}
+
+.nav a {
+    color: white;
+}
+
+.logo {
+    width: 120px;
+}
+
+.barra-pesquisa {
+    position: absolute;
+    top: 8px;
+    left: 72%;
+    margin-left: -2px;
+}
+
+.lancamentos {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.info_lancamento {
+    max-height: 300px;
+}
+
+.info_lancamento p {
+    font-size: 14px;
+    margin: 6px;
+}
+
+.carousel {
+    margin-top: 15px;
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.main .button {
+    margin-top: 16px;
+    margin-left: 82%;
+}
+
+.destaques img {
+    width: 100%;
+    min-height: 400px;
+}
+
+.categoria {
+    margin-top: 16px;
+    margin-left: 42%;
+}
+
+.categoria label {
+    color: #ffffff;
+}
+
+.avaliacoes h3 {
+    font-size: 24px;
+}
+
+.avaliacoes time, p {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.info_avaliador {
+    float: left;
+}
+
+.entrevista {
+    margin-bottom: 20px;
+}
+
+.entrevista h3 {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.entrevista p {
+    margin: 6px;
+}
+
+.novidades img {
+    max-width: 250px;
+    max-height: 100px;
+}
+
+.novidades1 {
+    width: 60%;
+    text-align: left;
+}
+
+.info_novidade {
+    position: absolute;
+    margin-left: 190px;
+    min-width: 300px;
+}
+
+.pri {
+    top: 45px;
+}
+
+.seg {
+    top: 170px;
+}
+
+.ter {
+    top: 300px;
+}
+
+.materia img {
+    margin-bottom: 30px;
+}
+
+.materia h3 {
+    font-size: 18px;
+}
+
+.materia p, b {
+    font-size: 12px;
+}
+
+.novidades p {
+    font-size: 14px;
+    margin: 6px;
+}
+
+.sobre {
+    margin-bottom: 20px;
+}
+
+.editorial {
+    margin-bottom: 20px;
+}
+
+.redes {
+    width: 45px;
+    height: 45px;
+    display: inline;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background: #474747c2;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.footer p {
+    text-align:center;
+}
+
+@media screen and (max-width: 1200px) {
+    .destaques {
+        margin-top: 32px;
+    }
+    
+    .nav {
+        min-width: 600px;
+    }
+
+    .destaques img {
+        width: 100%;
+        min-height: 300px;
+    }
+
+    .main .button {
+        margin-top: 16px;
+        margin-left: 72%;
+        min-width: 150px;
+    }
+
+    .materia img {
+        margin-bottom: 60px;
+    } 
+
+    .info_novidade {
+        position: absolute;
+        margin-left: 190px;
+        min-width: 300px;
+    }
+
+    .seg {
+        position: absolute;
+    }
+
+    .barra-pesquisa {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .destaques {
+        margin-top: 100px;
+    }
+    
+    .categoria {
+        margin-top: 16px;
+        margin-left: 12%;
+        min-width: 300px;
+    }
+
+    .destaques img {
+        width: 100%;
+        min-height: 250px;
+    }
+
+    .main .button {
+        margin-top: 16px;
+        margin-left: 72%;
+        min-width: 150px;
+    }
+
+    .novidades1 .materia:nth-child(3), .materia:nth-child(4) {
+        display: none;
+    }
+
+    .lan {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .destaques {
+        margin-top: 20px;
+    }
+    
+    .destaques img {
+        width: 100%;
+        min-height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .main .button {
+        margin-top: 16px;
+        margin-left: 58%;
+        min-width: 180px;
+    }
+
+    .avaliacoes div {
+        margin-bottom: 20px;
+    }
+
+    .avaliacoes div:nth-child(3) {
+        display: none;
+    }
+
+    .entrevista div:nth-child(3) {
+        display: none;
+    }
+
+    .categoria {
+        display: none;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .barra-pesquisa {
+        display: none;
+    }
+
+    .lan {
+        display: none;
+    }
+}

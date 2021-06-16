@@ -1,0 +1,131 @@
+0-480
+481-768
+769-1279
+1280+
+
+
+<metaname="viewport"content="width=device-width, initial-scale=1">
+
+@media screen and (min-width:1001px) and (max-width:1400px) {}
+
+
+.flex1 {
+   background: #727272;
+   display: flex;	//ativa flex
+   flex-wrap: wrap;	//define oq acontece quando n há mais espaco
+   justify-content: space-between;	//espacamento entre os itens
+   align-items: center;	//alinhamento
+   padding: 20px;
+}
+
+.grid1 {
+   display: grid;	//ativa grid
+   grid-template-columns: repeat(3, 1fr);	//define colunas e o fracionamento
+   max-width: 800px;	//definindo tamanho max da viewport q será usado
+   margin: 0 auto;	//margens
+   grid-gap: 20px;	//espacamento entre itens
+}
+
+Ex. grid:
+
+<div class="container">
+   <div class="a">A</div>
+   <div class="b">B</div>
+   <div class="c">C</div>
+   <div class="d">D</div>
+   <div class="e">E</div>
+   <div class="f">F</div>
+</div>
+
+.container {
+   display: grid;
+   grid-gap: 10px;
+   grid-template-columns: repeat(3, 100px);
+}
+
+.a {
+   grid-column: 1/ 3;
+   grid-row: 1;
+}
+
+.b {
+   grid-column: 3;
+   grid-row: 1/ 3;
+}
+
+.c {
+   grid-column: 1;
+   grid-row: 2/ 4;
+}
+
+Fim ex.
+
+
+Bootstrap instalacao:
+
+//css dentro da tag head
+<linkrel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/
+4.4.1/css/bootstrap.min.css"integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXt
+kKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"crossorigin="anonymous">
+
+//javascript dentro do body antes da tag de fechamento
+<scriptsrc="https://code.jquery.com/jquery-3.4.1.slim.min.js"integrity=
+"sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+
+n"crossorigin="anonymous"></script>
+
+<scriptsrc="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper
+.min.js"integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI
+3UksdQRVvoxMfooAo"crossorigin="anonymous"></script>
+
+<scriptsrc="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstr
+ap.min.js"integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj
+0Uod8GCExl3Og8ifwB6"crossorigin="anonymous"></script>
+
+//meta no head
+<metaname="viewport"content="width=device-width, initial-scale=1, shrink-
+to-fit=no">
+
+Fim instalacao.
+
+
+extra small (<576px)
+   .col-
+
+small (>=576px)
+   .col-sm-
+
+medium (>=768px)
+   .col-md-
+
+large (>=992px)
+   .col-lg-
+
+extra large (>=1200px)
+   .col-xl-
+
+
+Ex. grid com bootstrap:
+
+<div class="container">
+   <div class="row">
+      <div class="col-6 col-sm-12">
+         Coluna 1 com 50%
+      </div>
+      <div class="col-6 col-sm-12">
+         Coluna 2 com 50%
+      </div>
+   </div>
+   <div class="row">
+      <divclass="col-4">
+         Coluna 1 com 33,3333% ou 1/3
+      </div>
+      <div class="col-4">
+         Coluna 2 com 33,3333% ou 1/3
+      </div>
+      <div class="col-4">
+         Coluna 3 com 33,3333% ou 1/3
+      </div>
+   </div>
+</div>
+
+Fim ex.
